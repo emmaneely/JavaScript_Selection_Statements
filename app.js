@@ -23,25 +23,25 @@ if (number < favNumber) {
   // Exercise 2
   let birthMonth = window.prompt("What is your birth month?");
 
-  switch (birthMonth) {
-    case "December":
-    case "January":
-    case "February":
+  switch (birthMonth.toLowerCase()) {
+    case "december":
+    case "january":
+    case "february":
       console.log("Winter")
       break;
-    case "March":
-    case "April":
-    case "May":
+    case "march":
+    case "april":
+    case "may":
       console.log("Spring")
       break;
-    case "June":
-    case "July":
-    case "August":
+    case "june":
+    case "july":
+    case "august":
       console.log("Summer")
       break;
-    case "September":
-    case "October":
-    case "November":
+    case "september":
+    case "october":
+    case "november":
       console.log("Fall")
       break;
     default:
